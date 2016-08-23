@@ -12,17 +12,17 @@ topnav_dropdowns:
   folders:
     - title: Functional Components
       folderitems:
-        - title: CORE: User Account and Authentication (UAA) Services
+        - title: CORE User Account and Authentication (UAA) Services
           external_url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: CORE: Configuration Services
+        - title: CORE Configuration Services
           external_url: http://idratherbewriting.com/category-jekyll/
-        - title: CORE: Internationalisation and Localisation Services
+        - title: CORE Internationalisation and Localisation Services
           external_url: http://idratherbewriting.com/category-jekyll/
-        - title: COMMON: Inventory Services
+        - title: COMMON Inventory Services
           external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
-        - title: COMMON: TCP/IP Communication Driver
+        - title: COMMON TCP/IP Communication Driver
           external_url: https://talk.jekyllrb.com
-        - title: TMS: Transportation Services
+        - title: TMS Transportation Services
           external_url: http://jekyllrb.com/docs/home/
     - title: Documentation
       folderitems:
