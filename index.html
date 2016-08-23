@@ -13,11 +13,11 @@ description: OpenWMS User's GitHub Pages
 	</header>
 	<nav>
 		<div class="row">
- 			<div class="col-md-4 col-sm-6 col-xs-12">
+			<div class="col-md-2 col-sm-3 col-xs-6">
 				<a href="about/" title="About Me">
 					<div class="tile purple profile">
 						<h2 class="title">About Me</h2>
-						<p>Hello World, I am {{site.author}}.</p>
+						<p>{{site.author}}.</p>
 					</div>
 				</a>
 		    </div>
@@ -30,38 +30,15 @@ description: OpenWMS User's GitHub Pages
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
 				<a href="https://spring-labs.github.io" title="Spring Labs"  class="tile orange">
-					<i class="icon-interface21.io-w_1" style="font-size:8em"></i>
+					<i class="icon-interface21" style="font-size:8em"></i>
 				</a>
 			</div>
-		</div>
 
-		<div class="row">
-
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts offset:1 limit:1 %}
-				<a href="{{post.url}}" title="Recent Article">
-					<div class="tile green">
-						<h3 class="title">Recent Article</h3>
-						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
-					</div>
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<a href="https://spring-labs.github.io" title="Project:Ameba-lib"  class="tile orange">
+					<i class="icon-ameba" style="font-size:8em"></i>
 				</a>
-				{% endfor %}
 			</div>
-
-
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts limit:1 %}
-				<a href="{{post.url}}" title="Latest Article">
-					<div class="tile red">
-						<h3 class="title">Latest Article</h3>
-						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
-					</div>
-				</a>
-				{% endfor %}
-			</div>
-
 		</div>
 
 		<div class="row" style="margin-bottom:25px">
