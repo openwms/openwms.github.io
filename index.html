@@ -62,20 +62,6 @@ description: OpenWMS User's GitHub Pages
 				{% endfor %}
 			</div>
 
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				{% for post in site.posts %}
-					{% if post.featured == true %}
-					<a href="{{post.url}}" title="Featured Article">
-						<div class="tile orange">
-							<h3 class="title">Featured Article</h3>
-							<h4 class="title">{{ post.title }}</h4>
-							<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
-						</div>
-					</a>
-					{% break %}
-					{% endif %}
-				{% endfor %}
-			</div>
 		</div>
 
 		<div class="row" style="margin-bottom:25px">
@@ -95,14 +81,14 @@ description: OpenWMS User's GitHub Pages
 			<div class="col-md-2 col-sm-3 col-xs-6">
 
 				<a href="{{site.github}}" title="Github" class="tile purple">
-					<i class="icon-gthb" style="font-size:8em"></i>
+					<i class="icon-github" style="font-size:8em"></i>
 				</a>
 
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
 				<a href="{{site.linkedin}}" title="LinkedIn" class="tile blue">
-					<i class="icon-lkin" style="font-size:8em"></i>
+					<i class="icon-linkedin" style="font-size:8em"></i>
 				</a>
 			</div>
 		</div>
