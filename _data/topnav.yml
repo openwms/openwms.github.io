@@ -3,30 +3,30 @@
 topnav:
 - title: Topnav
   items:
-    - title: News
+    - title: Support
       url: /news
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Jekyll Resources
+    - title: Functional Components
       folderitems:
-        - title: Github Repo
-          external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
-        - title: Jekyll Talk
-          external_url: https://talk.jekyllrb.com
-        - title: Jekyll documentation
-          external_url: http://jekyllrb.com/docs/home/
-        - title: Jekyll on Stack Overflow
+        - title: CORE: User Account and Authentication (UAA) Services
           external_url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: Jekyll on my blog
+        - title: CORE: Configuration Services
           external_url: http://idratherbewriting.com/category-jekyll/
-    - title: Products
+        - title: CORE: Internationalisation and Localisation Services
+          external_url: http://idratherbewriting.com/category-jekyll/
+        - title: COMMON: Inventory Services
+          external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
+        - title: COMMON: TCP/IP Communication Driver
+          external_url: https://talk.jekyllrb.com
+        - title: TMS: Transportation Services
+          external_url: http://jekyllrb.com/docs/home/
+    - title: Documentation
       folderitems:
-        - title: Jekyll Documentation Theme
+        - title: OpenWMS.org User Documentation 2.x
           url: /mydoc_introduction.html
-        - title: Product 1
-          url: /p1_landing_page.html
-        - title: Product 2
-          url: /p2_landing_page.html
+        - title: OpenWMS.org User Documentation 1.x
+          url: /mydoc_introduction.html
