@@ -37,14 +37,14 @@ author:         'Heiko Scherrer'
 
 #Social Media links (Use complete URL except for email)
 dribbble:
-email:          'hscherrer@interface21.io'
+email:          'mailto:hscherrer@interface21.io'
 facebook:       
 flickr:
 github:         'https://github.com/openwms'
 gplus:          
 instagram:
 pinterest:
-linkedin:       'www.linkedin.com/in/openwms'
+linkedin:       'https://www.linkedin.com/in/openwms'
 rss:
 stackoverflow:  
 twitter:        'https://twitter.com/openwms'
