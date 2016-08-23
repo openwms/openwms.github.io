@@ -37,17 +37,17 @@ author:         'Heiko Scherrer'
 
 #Social Media links (Use complete URL except for email)
 dribbble:
-email:
-facebook:       'https://www.facebook.com/olakara'
+email:          'hscherrer@interface21.io'
+facebook:       
 flickr:
 github:         'https://github.com/openwms'
-gplus:          'https://plus.google.com/100425464897246255887/'
+gplus:          
 instagram:
 pinterest:
-linkedin:       'https://ae.linkedin.com/in/olakara/'
+linkedin:       'www.linkedin.com/in/openwms'
 rss:
-stackoverflow:  'http://stackoverflow.com/users/185655/abdel-raoof'
-twitter:        'https://twitter.com/olakara'
+stackoverflow:  
+twitter:        'https://twitter.com/openwms'
 
 # Google Analytics
 gahandler: 'UA-83021650-1'
